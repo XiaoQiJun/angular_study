@@ -5,5 +5,9 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/node_modules": false,
+    "**/bower_components": true
   }
 }
