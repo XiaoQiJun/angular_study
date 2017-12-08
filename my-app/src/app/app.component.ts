@@ -1,3 +1,4 @@
+/// <reference path="../assets/toastmessage/index.d.ts" />
 
 import { Component, OnInit } from '@angular/core';
 
