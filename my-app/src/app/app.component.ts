@@ -1,4 +1,8 @@
+
 import { Component, OnInit } from '@angular/core';
+
+// import $ = require("jquery");
+// import { $ } from 'jquery'
 
 @Component({
   selector: 'app-root',
@@ -11,6 +15,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     let div = $(".container");
-    console.log(div);
+    $().toastmessage("showToast", { text: "oh, yeah!" });
   }
 }
